@@ -211,7 +211,7 @@ function getIcon(condition){
         return "rain.png";
     } 
     else if(condition === "clear-day"){
-        return "sun (1).png";
+        return "sun.png";
     } 
     else if(condition === "clear-night"){
         return "cloudy-night.png";
@@ -226,7 +226,7 @@ function getIcon(condition){
         return "cloud snow.png";
     } 
     else {
-        return "sun (1).png";
+        return "sun.png";
     }
 }
 
