@@ -226,7 +226,7 @@ function getIcon(condition){
         return "cloud snow.png";
     } 
     else {
-        return "sun.png";
+        return "sunmoon.png";
     }
 }
 
@@ -305,22 +305,22 @@ function changeBackground(condition) {
     const body = document.querySelector("body");
     let bg = "";
     if(condition === "partly-cloudy-day"){
-        bg =  "pics/cloudy.jpg";
+        bg =  "cloudy.jpg";
     } 
     else if(condition === "partly-cloudy-night"){
-        bg = "pics/night.jpeg";
+        bg = "night.jpeg";
     } 
     else if(condition === "Rain"){
-        bg = "pics/rain.jpg";
+        bg = "rain.jpg";
     } 
     else if(condition === "clear-day"){
-        bg = "pics/clear day.jpg";
+        bg = "clear day.jpg";
     } 
     else if(condition === "clear-night"){
-        bg = "pics/cloudy night.jpg";
+        bg = "cloudy night.jpg";
     } 
     else {
-        bg = "pics/clear day.jpg";
+        bg = "clear day.jpg";
     }
     body.style.backgroundImage = `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${bg})`;
 }
