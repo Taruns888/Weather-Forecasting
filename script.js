@@ -202,31 +202,31 @@ function convertTimeTo12HourFormat(time) {
 
 function getIcon(condition){
     if(condition === "partly-cloudy-day"){
-        return "icons/partial cloud.png";
+        return "partial cloud.png";
     } 
     else if(condition === "partly-cloudy-night"){
-        return "icons/night cloud moon.png";
+        return "night cloud moon.png";
     } 
     else if(condition === "rain"){
-        return "icons/rain.png";
+        return "rain.png";
     } 
     else if(condition === "clear-day"){
-        return "icons/sun (1).png";
+        return "sun(1).png";
     } 
     else if(condition === "clear-night"){
-        return "icons/cloudy-night.png";
+        return "cloudy-night.png";
     }
     else if(condition === "night"){
-        return "icons/night.png";
+        return "night.png";
     } 
     else if(condition === "overcast-night"){
-        return "icons/overcast.png";
+        return "overcast.png";
     } 
     else if(condition === "snow"){
-        return "icons/cloud snow.png";
+        return "cloud snow.png";
     } 
     else {
-        return "icons/sun (1).png";
+        return "sun(1).png";
     }
 }
 
